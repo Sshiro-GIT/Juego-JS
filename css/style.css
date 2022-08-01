@@ -1,0 +1,44 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.contenedor {
+  pad: 0px;
+  margin: auto;
+  width: 1400px;
+  height: 800px;
+  background-color: rgb(26, 26, 26);
+  border: 8px dashed rgb(255, 255, 255);
+}
+
+#player{
+  background-color: rgb(255, 0, 0);
+  border: 4px dashed rgb(92, 5, 5);
+  width: 40px;
+  height: 40px;
+  border-radius: 29px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  -ms-border-radius: 29px;
+  -o-border-radius: 29px;
+  position: absolute;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.pointer{
+  background-color: #444;
+  height: 30px;
+  margin-top: 30px;
+  border-bottom: 0px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+}
